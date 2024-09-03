@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
-CSRF_TRUSTED_ORIGINS = ['https://puntoventasdjango1-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']
 ROOT_URLCONF = 'myshop.urls'
 
 TEMPLATES = [
